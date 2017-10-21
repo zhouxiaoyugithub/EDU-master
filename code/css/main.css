@@ -1,0 +1,123 @@
+/*
+* @Author: zhouxiaoyu 这个是我们自定义的库
+* @Date:   2017-08-18 21:48:52
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-15 19:51:06
+*/
+/*公共区域*/
+body{
+	font-family:"Helvetica Neue",Helvetica, Microsoft Yahei,Hiragino San,WenQuanYi Micro Hei,sans-serif;
+}/*
+@font-face {
+	font-family: 'shejidaren';
+	src:url('fonts/shejidaren.eot');
+	src:url('fonts/shejidaren.eot?#iefix') format('embedded-opentype'),
+		url('fonts/shejidaren.woff') format('woff'),
+		url('fonts/shejidaren.ttf') format('truetype'),
+		url('fonts/shejidaren.svg#shejidaren') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+/*头部*/
+#header{
+ height:106px;
+
+    position: relative;
+    z-index: 1999;
+    
+    padding: 20px 0;
+    background: #fff;
+
+}
+#header >.topbar{
+	height: 31px;
+	background-color:#f0f0f0;
+
+	border-bottom: solid 1px #c0c0c0;
+}
+#header >.topbar > .container {
+    height: 31px;
+
+}
+.nav{
+	height:75px;
+}
+.col-md-3{
+	line-height:31px;
+}
+#header >.topbar > .container > div :nth-of-type(2n+1){
+    height: 31px;
+	background-color: #f0f0f0;
+
+}
+a{
+	color:gray;
+	border-top:10px;
+}
+/*
+.site-map .before::before{
+	content: "";
+	position: absolute;
+	left: -20px;
+	top: 50%;
+	width: 14px;
+	height: 12px;
+    margin-top: -6px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAANhJREFUKM/NkqEOwjAURStQKAT/MQXhXwBDggGLRFSUrRNILAlqH0Cw0yDZL/QHkDNQ7k1ekwboNE3O9vreva9dV6USwxgzLopixFhrPUC8yPN8rrqGtXYN4VNYockEOU+SJnTdUQDDiUh8ThqxnR4KRxGUYC+UwfRlhKmPrhduDStuIKgiccUca5xTG0xDJG6ghWCJdx2vINRSa9HgSg8PogEPMJPYJ2h4qtTCfFd4TDHJgOswBajJ6Il/wafoJfjk4fwwuijv/s+4xUcfCG9PfJNCnpqQfwPhpylfd+0Q+AAAAABJRU5ErkJggg==) no-repeat;
+	opacity: .8;
+    filter: alpha(opacity=80);
+}*/
+
+li{
+	
+	color:gray;
+	margin-left:50px;
+	float:right;
+	text-align:center;
+	list-style:none;
+
+}
+.logo{
+	background: url("img/images/0.png") no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("i");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-image: -webkit-image-set(url(img/images/0.1.png) 2x);
+}
+.logo a {
+    display: block;
+    width: 175px;
+    height: 34px;
+    overflow: hidden;
+    background: url(//wacai-file.b0.upaiyun.com/common/c/header/img/logo_238d303.png?v=20170216) no-repeat;
+    background-image: -webkit-image-set(url(//wacai-file.b0.upaiyun.com/common/c/header/img/logo@2x_7b6aac3.png?v=20170216) 2x);
+    text-indent: -9999px;
+}
+a {
+    text-decoration: none;
+
+}
+.logo{
+	position:relative;
+}
+.nav-1 .hd-logo{
+	position:absolute;
+	float:left;
+}
+/*section*/
+section{
+	height: 200px;
+	background-color:#fff;
+}
+section:nth-of-type(2n+1) {
+	background-color: #f0f0f0;
+}
+footer{
+	height:100px;
+}

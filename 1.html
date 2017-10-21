@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+ <link rel="stylesheet" type="text/css" href="css/index.css">
+<style>
+	body{
+		font-size:30px;
+	}
+</style>
+</head>
+<body>
+	<p>我想看看控制台</p>
+	<ul id="ul">
+		<li>0</li>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+	</ul>
+<script type="text/javascript">
+    var num = document.getElementById('ul');
+    //var lis = document.getElementsByTagName("li");周晓雨真的好厉害啊哈哈哈哈哈哈哈
+    var lis = num.children;
+    //var lis = num.childNodes;
+    //alert(lis);
+    for(var i = 0 ; i < lis.length;i++){
+    	//lis[i].onclick = function() {
+    		//var a = lis[i].innerHTML;
+    	//	alert((function(){
+    	//		return i;
+    	//	})());
+        lis[i].onclick = function(){
+        	alert((function() { // 这里创建了一个立即执行的函数
+        return i;
+    })());
+        }
+    }
+	
+</script>
+  <script src="js/index.js"></script></body>
+</html>
